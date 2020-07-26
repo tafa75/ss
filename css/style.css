@@ -1,0 +1,131 @@
+h1{
+    
+     text-align: center;
+     width: 100vw;
+     color: green;
+     text-transform: initial;
+    font-size: xx-large;
+    text-shadow: lime;
+    box-shadow: limegreen;
+    }
+#drapaeau{
+    position: relative;
+    flex: left;
+
+}
+#baobab{
+    position: relative;
+    flex-direction:right;
+    margin: 10px;;
+    flex: auto;
+}
+#baobab:hover:{
+    width: 900px;
+}
+p{
+    text-align: justify;
+    font-size: medium;
+    font-weight: normal;
+    
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+    background-color: rgb(204, 206, 223);
+    
+}
+.goree{
+    position: relative;
+    flex-direction:right;
+    margin: 10px;;
+    flex:auto;
+    background: blueviolet;
+}
+aside{
+    width: 500px;
+    border:solid black;
+    position: relative;
+    float: right;
+    background-color: cornflowerblue;
+    overflow: hidden;
+    padding: 0px;
+    display: flex;
+    text-align: justify;
+    left: 0px;
+}
+nav{
+    
+        width:100%;
+        background-color:#424558;
+        display: flex;
+        justify-content: center;
+}
+
+
+nav ul{
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+nav li{
+    list-style-type:none;
+    float: left;
+
+}
+.formulario{
+  position: absolute;
+  right: 50px;
+  top:10px
+    
+     
+}
+form{
+    background-color: darkslategrey;
+}
+
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    padding:20px 30px;
+    color:#FFF;
+}
+
+.menu-menu1:hover{
+    border-top:5px solid #e44d26;
+    background-color:RGBa(228, 77, 38 ,0.15) ;
+    color:orange;
+}
+.menu-menu2:hover{
+    border-top:5px solid #f14612;
+    background-color: RGBa(000, 112, 192 ,0.15);
+    color:orange;
+}
+.menu-menu3:hover{
+    border-top: 5px solid #4406a7;
+    background-color: RGBa(241, 211, 79, 0.15);
+    color:orange;
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.table a{
+display: table;
+margin: 0 auto;
+}
+.formulario:hover{
+  border-top:5px;
+  color:orange;
+   
+}
+.goree:hover {
+width: 900px;
+}
+footer{
+   /* padding: 100px; */
+    border: solid black;
+}
